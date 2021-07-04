@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A28EF84E2691BEA400536F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF84D2691BEA400536F78 /* AppDelegate.swift */; };
 		A28EF8502691BEA400536F78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF84F2691BEA400536F78 /* SceneDelegate.swift */; };
-		A28EF8522691BEA400536F78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF8512691BEA400536F78 /* ViewController.swift */; };
+		A28EF8522691BEA400536F78 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF8512691BEA400536F78 /* PostsViewController.swift */; };
 		A28EF8552691BEA400536F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28EF8532691BEA400536F78 /* Main.storyboard */; };
 		A28EF8572691BEAC00536F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28EF8562691BEAC00536F78 /* Assets.xcassets */; };
 		A28EF85A2691BEAC00536F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28EF8582691BEAC00536F78 /* LaunchScreen.storyboard */; };
+		A28EF86A2691C52400536F78 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF8692691C52400536F78 /* NetworkManager.swift */; };
+		A28EF8752691C7BE00536F78 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF8742691C7BE00536F78 /* Post.swift */; };
+		A28EF87F2691E18D00536F78 /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF87E2691E18D00536F78 /* PostDetailsViewController.swift */; };
+		A28EF8852691F9F200536F78 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF8842691F9F200536F78 /* Comment.swift */; };
+		A28EF8942692049E00536F78 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28EF8932692049E00536F78 /* CommentTableViewCell.swift */; };
+		D6E29E89F9AAF747C705B28B /* Pods_Testovoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2C2624D4A3FDBF0998277C /* Pods_Testovoe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B2C2624D4A3FDBF0998277C /* Pods_Testovoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Testovoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0ECE949BD757B215D1F9BF9 /* Pods-Testovoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testovoe.release.xcconfig"; path = "Target Support Files/Pods-Testovoe/Pods-Testovoe.release.xcconfig"; sourceTree = "<group>"; };
 		A28EF84A2691BEA400536F78 /* Testovoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testovoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28EF84D2691BEA400536F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A28EF84F2691BEA400536F78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A28EF8512691BEA400536F78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A28EF8512691BEA400536F78 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		A28EF8542691BEA400536F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A28EF8562691BEAC00536F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A28EF8592691BEAC00536F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A28EF85B2691BEAC00536F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28EF8692691C52400536F78 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A28EF8742691C7BE00536F78 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A28EF87E2691E18D00536F78 /* PostDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
+		A28EF8842691F9F200536F78 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		A28EF8932692049E00536F78 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		A7105F766EE0244D7B7A5B96 /* Pods-Testovoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testovoe.debug.xcconfig"; path = "Target Support Files/Pods-Testovoe/Pods-Testovoe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E29E89F9AAF747C705B28B /* Pods_Testovoe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99B56CFA9E4B159E60976B19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7105F766EE0244D7B7A5B96 /* Pods-Testovoe.debug.xcconfig */,
+				A0ECE949BD757B215D1F9BF9 /* Pods-Testovoe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A28EF8412691BEA400536F78 = {
 			isa = PBXGroup;
 			children = (
 				A28EF84C2691BEA400536F78 /* Testovoe */,
 				A28EF84B2691BEA400536F78 /* Products */,
+				99B56CFA9E4B159E60976B19 /* Pods */,
+				F0477CC3F478B62B7065C148 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,68 @@
 		A28EF84C2691BEA400536F78 /* Testovoe */ = {
 			isa = PBXGroup;
 			children = (
-				A28EF84D2691BEA400536F78 /* AppDelegate.swift */,
-				A28EF84F2691BEA400536F78 /* SceneDelegate.swift */,
-				A28EF8512691BEA400536F78 /* ViewController.swift */,
-				A28EF8532691BEA400536F78 /* Main.storyboard */,
+				A28EF8662691BF0D00536F78 /* Storyboard */,
+				A28EF8652691BF0200536F78 /* ViewControllers */,
+				A28EF8642691BEFC00536F78 /* SupportingFiles */,
+				A28EF8632691BEE400536F78 /* Models */,
+				A28EF8622691BED300536F78 /* Managers */,
 				A28EF8562691BEAC00536F78 /* Assets.xcassets */,
-				A28EF8582691BEAC00536F78 /* LaunchScreen.storyboard */,
-				A28EF85B2691BEAC00536F78 /* Info.plist */,
 			);
 			path = Testovoe;
+			sourceTree = "<group>";
+		};
+		A28EF8622691BED300536F78 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A28EF8692691C52400536F78 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A28EF8632691BEE400536F78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A28EF8742691C7BE00536F78 /* Post.swift */,
+				A28EF8842691F9F200536F78 /* Comment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A28EF8642691BEFC00536F78 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A28EF84D2691BEA400536F78 /* AppDelegate.swift */,
+				A28EF84F2691BEA400536F78 /* SceneDelegate.swift */,
+				A28EF85B2691BEAC00536F78 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A28EF8652691BF0200536F78 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A28EF8512691BEA400536F78 /* PostsViewController.swift */,
+				A28EF87E2691E18D00536F78 /* PostDetailsViewController.swift */,
+				A28EF8932692049E00536F78 /* CommentTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A28EF8662691BF0D00536F78 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A28EF8582691BEAC00536F78 /* LaunchScreen.storyboard */,
+				A28EF8532691BEA400536F78 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F0477CC3F478B62B7065C148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B2C2624D4A3FDBF0998277C /* Pods_Testovoe.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A28EF85E2691BEAC00536F78 /* Build configuration list for PBXNativeTarget "Testovoe" */;
 			buildPhases = (
+				0E97330C2B820CA851DECD20 /* [CP] Check Pods Manifest.lock */,
 				A28EF8462691BEA400536F78 /* Sources */,
 				A28EF8472691BEA400536F78 /* Frameworks */,
 				A28EF8482691BEA400536F78 /* Resources */,
+				B458151A7F7454BBF25B0BCD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +213,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E97330C2B820CA851DECD20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Testovoe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B458151A7F7454BBF25B0BCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Testovoe/Pods-Testovoe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Testovoe/Pods-Testovoe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Testovoe/Pods-Testovoe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A28EF8462691BEA400536F78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A28EF8522691BEA400536F78 /* ViewController.swift in Sources */,
+				A28EF8752691C7BE00536F78 /* Post.swift in Sources */,
+				A28EF86A2691C52400536F78 /* NetworkManager.swift in Sources */,
+				A28EF8522691BEA400536F78 /* PostsViewController.swift in Sources */,
+				A28EF8942692049E00536F78 /* CommentTableViewCell.swift in Sources */,
+				A28EF8852691F9F200536F78 /* Comment.swift in Sources */,
 				A28EF84E2691BEA400536F78 /* AppDelegate.swift in Sources */,
 				A28EF8502691BEA400536F78 /* SceneDelegate.swift in Sources */,
+				A28EF87F2691E18D00536F78 /* PostDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +411,12 @@
 		};
 		A28EF85F2691BEAC00536F78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7105F766EE0244D7B7A5B96 /* Pods-Testovoe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Testovoe/Info.plist;
+				INFOPLIST_FILE = Testovoe/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +430,12 @@
 		};
 		A28EF8602691BEAC00536F78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0ECE949BD757B215D1F9BF9 /* Pods-Testovoe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Testovoe/Info.plist;
+				INFOPLIST_FILE = Testovoe/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
